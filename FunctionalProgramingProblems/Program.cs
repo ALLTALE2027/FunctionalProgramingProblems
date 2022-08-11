@@ -10,6 +10,7 @@
             Console.WriteLine("3. Power of Two");
             Console.WriteLine("4. Harmonic Number");
             Console.WriteLine("5. Prime Factors");
+            Console.WriteLine("6. Quotient and Remainder");
             int n = Convert.ToInt32(Console.ReadLine());
 
             switch (n)
@@ -35,6 +36,10 @@
                 case 5: PrimeFactors prime = new PrimeFactors();
                         prime.Factors();
                     break;
+                case 6:QuotientRemainder find = new QuotientRemainder();
+                      find.RemainderQuotient();
+                    break;
+
 
                 default:
                     Console.WriteLine("Make Proper Selection");

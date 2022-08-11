@@ -14,6 +14,7 @@
             Console.WriteLine("7. Swap Two Numbers");
             Console.WriteLine("8. Check Whether a Number is Even or Odd");
             Console.WriteLine("9. Alphabet is Vowel or Consonant");
+            Console.WriteLine("10. Find the Largest Among Three Numbers");
             int n = Convert.ToInt32(Console.ReadLine());
 
             switch (n)
@@ -50,6 +51,9 @@
                     break;
                 case 9:VowelConsonant check=new VowelConsonant();
                        check.CheckVowelConsonant();
+                    break;
+                case 10: LargestNumber largestNumber = new LargestNumber();
+                         largestNumber.GetMaxNum();
                     break;
 
 

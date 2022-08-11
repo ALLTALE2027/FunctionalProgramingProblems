@@ -8,6 +8,7 @@
             Console.WriteLine("1. Flip Coin Percentage");
             Console.WriteLine("2. Leap Year");
             Console.WriteLine("3. Power of Two");
+            Console.WriteLine("4. Harmonic Number");
             int n = Convert.ToInt32(Console.ReadLine());
 
             switch (n)
@@ -25,8 +26,11 @@
 
                 case 3: PowerOfTwo power2=new PowerOfTwo();
                     power2.Power();
-                    break;
 
+                    break;
+                case 4: HarmonicFn harmon=new HarmonicFn();
+                         harmon.Harmonic();
+                    break;
 
                 default:
                     Console.WriteLine("Make Proper Selection");
